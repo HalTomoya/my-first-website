@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>はじめてのWebページ</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>こんにちは、Tomoyaです</h1>
+      <nav aria-label="サイト内メニュー">
+        <a href="#about">自己紹介</a>
+        <a href="#works">作ったもの</a>
+        <a href="#contact">連絡先</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>自己紹介</h2>
+        <p>これが私のはじめてのWebページです。少しずつ内容を増やしていきます。</p>
+        <button id="themeToggle" type="button" aria-pressed="false">ダークモード切替</button>
+      </section>
+
+      <section id="works">
+        <h2>作ったもの</h2>
+        <ul>
+          <li>（これから追加していく予定）</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>連絡先</h2>
+        <p>X/Twitter: <a href="#" rel="me">@your_handle</a></p>
+        <p>Email: you@example.com</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <small>&copy; <span id="year"></span> Tomoya</small>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
