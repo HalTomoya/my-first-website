@@ -11,6 +11,6 @@
 2. Build and deployment: “Deploy from a branch”
 3. Branch: “main” / “root” を選んで Save
 4. 数十秒〜数分後、上部に公開URLが表示されます  
-   例: https://HalTomoya.github.io/my-first-website
+   例: https://haltomoya.github.io/my-first-website/
 
 困ったら Issue でメモしておき、後で改善していきましょう。
